@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap%27');
+
+#principal{
+  margin-top: 80px;
+}
+
+main{
+  margin-right: 64px;
+  margin-bottom: 32px;
+  margin-left: 64px;
+  margin-top: 32px;
+  padding: 22px;
+}
+
+h2{
+  border-left: solid 3px #242424;
+}
+
+.Destaque{
+  color:#7209b7;
+  padding: 10px;;
+}
+
+.text-links{
+  text-decoration: none;
+  color: #242324;
+  font-size: 16px;
+  text-align: center;
+}
+
+.text-links:hover{
+  color: #7209b7;
+}
+
+.img-releases{
+  width: 180px;
+  height: 260px;
+  border-radius: 5%;
+}
+
+.img-releases:hover{
+  transform: scale(1.1);
+}
+
+.container{
+  display: table;
+  padding: 25px;
+  margin-top: 32px;
+}
+
+.div-display{
+  display: table-cell;
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+/*Lista de lançamentos*/
+
+#Lançamentos{
+  margin-top: 32px;
+}
+
+table{
+  width: 1000px;
+  height: 600px;
+  margin-top: 80px;
+  border: solid 2px #242324;
+  padding: 5px;
+  border-collapse: collapse;
+}
+
+table a{
+  text-decoration: none;
+}
+
+table a:hover{
+  color: #7209b7;
+}
+
+table td{
+  text-align: start;
+  padding: 15px;
+}
+table tr th{
+  text-align: center;
+  border: #242324 solid ;
+}
+
+.titulo-table{
+  padding: 20px;
+  font-size: 17px;
+  color: #7209b7;
+}

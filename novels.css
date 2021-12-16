@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2? family = Abrir + Sans & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap%27');
+
+.descrição-novel{
+    text-align: center;
+}
+
+.capa{
+    width: 280px;
+    height: 400px;
+    border-radius: 5%;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#titulo-novel{
+    color: #480ca8;
+    font-size: 25px;
+}
+
+#Novel{
+    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-right: 25px;
+    margin: 32px;
+}
+
+.text-sinopse{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+#alinhamento{
+    margin-left: 320px;
+}
+
+.ajuste-T{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ajuste{
+    margin-bottom: 15px;
+}
+
+.ajuste a{
+    text-decoration: none;
+}
+
+.Componentes-Novel{
+    font-size: 18px;
+    color: #7209b7;
+}
+
+/*Lista de caps*/
+
+.lista-titulo{
+    padding: 20px;
+    text-align: center;
+}
+
+.lista-titulo .Componentes-Novel{
+    font-size: 25px;
+}
+
+.Lista-de-caps{
+    border: solid #242324;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.caps{
+    padding: 30px;
+}
+
+.caps ul li{
+    list-style-type: none;
+}
+
+.caps li{
+    font-size: 17px;
+    padding: 3px;
+}
+
+.caps li a{
+    text-decoration: none;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

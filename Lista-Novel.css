@@ -1,0 +1,89 @@
+main{
+    margin: 0;
+}
+
+#principal{
+    margin-top: 70px;
+}
+
+/*Buscador*/
+
+#idBotao{
+    border-radius: 20px;
+}
+
+.botaoL{
+    background-image: url("busca-img.png");
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+}
+
+.botaoX{
+    background-image: url("busca-X-img.png");
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+}
+
+#texto-busca{
+    text-align: center;
+    color: #480ca8;
+}
+
+#section-busca{
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+#input-busca::placeholder{
+    padding: 10px;
+    font-size: 17px;
+}
+
+#input-busca{
+    width: 500px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #242324;
+    color: #ffc107;
+    margin-right: 20px;
+}
+
+/*Lista das Novels*/
+
+.text-links{
+    text-decoration: none;
+    color: #242324;
+    font-size: 16px;
+    text-align: center;
+}
+
+.text-links:hover{
+    color: #7209b7;
+}
+
+.img-releases{
+  width: 180px;
+  height: 260px;
+  border-radius: 5%;
+}
+
+.img-releases:hover{
+    transform: scale(1.1);
+}
+
+.container{
+    display: table;
+}
+
+.div-display{
+    display: table-cell;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+
